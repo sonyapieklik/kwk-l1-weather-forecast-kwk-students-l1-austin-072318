@@ -1,21 +1,19 @@
-class PatMcGrath
-  
-attr_accessor :shadow1, :shadow2, :shadow3, :name 
-def initalize (shadow1, shadow2, shadow3)
-  @shadow1 = shadow1
-  @shadow2 = shadow2
-  @shadow3 = shadow3
-  
-end
-  
-def palette 
-  puts "The #{@name} Pat McGrath palette contains shadows such as #{@shadow1}, #{@shadow2}, and #{@shadow3}."
-end
-  
+class Pizza
+
+attr_accessor :topping, :sauce, :cheese, :name
+def initialize(topping, sauce, cheese)
+	@topping = topping
+	@sauce = sauce
+	@cheese = cheese
 end
 
-one = PatMcGrath.new("Substance","Blitz_Blue", "Depth")
-one.name = "Subliminal"
+def love
+	puts "I love the #{@name} pizza!"
+end
 
-puts one.palette
-  
+end
+
+pizza1 = Pizza.new("pepperoni", "marinara", "mozarella")
+pizza1.name = "pepperoni supreme"
+
+puts pizza1.love
