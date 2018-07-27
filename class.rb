@@ -1,4 +1,4 @@
-class Pat_McGrath
+class PatMcGrath
   attr_accessor :shadow1, :shadow2, :shadow3, :name 
   def initalize(shadow1, shadow2, shadow3)
     @shadow1 = shadow1
@@ -13,7 +13,7 @@ class Pat_McGrath
   
 end
 
-palette1 = Pat_McGrath.new("Substance","Blitz_Blue", "Depth")
+palette1 = PatMcGrath.new("Substance","Blitz_Blue", "Depth")
 palette1.name = "Subliminal"
 
 puts palette1.palette
