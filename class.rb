@@ -1,5 +1,5 @@
 class Pat_McGrath
-  attr_accessor :shadow1 :shadow2 :shadow3 :name 
+  attr_accessor :shadow1, :shadow2, :shadow3, :name 
   def initalize(shadow1, shadow2, shadow3, name)
     @shadow1 = shadow1
     @shadow2 = shadow2
@@ -8,6 +8,6 @@ class Pat_McGrath
   end
   
   def palette 
-    puts "The "
+    puts "The #{name} Pat McGrath palette contains shadows such as  "
   end
   
