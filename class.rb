@@ -13,4 +13,6 @@ class Pat_McGrath
 end
 
 palette1 = Pat_McGrath.new("Substance", "Blitz_Blue", "Depth", "Subliminal")
+
+puts palette1.palette
   
