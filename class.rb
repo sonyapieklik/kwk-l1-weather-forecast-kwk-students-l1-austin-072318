@@ -12,5 +12,5 @@ class Pat_McGrath
   end
 end
 
-palette1 = Pat_McGrath.new()
+palette1 = Pat_McGrath.new("")
   
