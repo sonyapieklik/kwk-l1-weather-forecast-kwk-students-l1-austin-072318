@@ -1,19 +1,16 @@
-class Pizza
-
-attr_accessor :topping, :sauce, :cheese, :name
-def initialize(topping, sauce, cheese)
-	@topping = topping
-	@sauce = sauce
-	@cheese = cheese
+    attr_accessor :fur_color, :breed, :name   #get and set instance variables
+  def initialize(fur_color, breed)
+    #create instance variables 
+    @fur_color = fur_color
+    @breed = breed
+  end
+  
+  def speak
+    puts "Hi! I'm friendly friend!"
+  end
+  
 end
 
-def love
-	puts "I love the #{@name} pizza!"
-end
-
-end
-
-pizza1 = Pizza.new("pepperoni", "marinara", "mozarella")
-pizza1.name = "pepperoni supreme"
-
-puts pizza1.love
+#create an instance/object within the class
+dog1 = Dog.new("brown", "corgi")
+dog2 = Dog.new("pink", "poodle")
