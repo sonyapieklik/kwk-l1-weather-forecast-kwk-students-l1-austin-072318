@@ -12,5 +12,5 @@ class Pat_McGrath
   end
 end
 
-palette1 = Pat_McGrath.new("Substance", "Blitz_Blue", )
+palette1 = Pat_McGrath.new("Substance", "Blitz_Blue", "Depth", "Sublina")
   
