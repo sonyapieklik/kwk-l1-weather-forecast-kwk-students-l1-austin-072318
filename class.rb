@@ -1,2 +1,2 @@
 class Pat_McGrath
-  attr_accessor :
+  attr_accessor :name :shadow1 :shadow2 :shadow3
