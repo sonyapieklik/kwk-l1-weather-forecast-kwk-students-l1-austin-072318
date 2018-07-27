@@ -8,6 +8,6 @@ class Pat_McGrath
   end
   
   def palette 
-    puts "The #{name} Pat McGrath palette contains shadows such as  "
+    puts "The #{name} Pat McGrath palette contains shadows such as #{shadow1}, #{shadow2}, and #{shadow3}."
   end
   
