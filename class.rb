@@ -5,3 +5,8 @@ class Pat_McGrath
     @shadow2 = shadow2
     @shadow3 = shadow3
   end
+  
+  def palette 
+    
+  end
+  
