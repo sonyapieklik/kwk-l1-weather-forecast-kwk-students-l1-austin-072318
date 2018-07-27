@@ -1,4 +1,5 @@
-class PatMcGrath
+class 
+  
 attr_accessor :shadow1, :shadow2, :shadow3, :name 
 def initalize(shadow1, shadow2, shadow3)
   @shadow1 = shadow1
