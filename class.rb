@@ -4,3 +4,4 @@ class Pat_McGrath
     @shadow1 = shadow1
     @shadow2 = shadow2
     @shadow3 = shadow3
+  end
