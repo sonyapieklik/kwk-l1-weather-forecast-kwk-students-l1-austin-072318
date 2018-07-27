@@ -14,8 +14,8 @@ end
   
 end
 
-palette1 = PatMcGrath.new("Substance","Blitz_Blue", "Depth")
-palette1.name = "Subliminal"
+one = PatMcGrath.new("Substance","Blitz_Blue", "Depth")
+one.name = "Subliminal"
 
-puts palette1.palette
+puts one.palette
   
